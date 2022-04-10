@@ -6,6 +6,8 @@ A nice description could be here.
 
 ## [Unreleased]
 
+## [1.1.0] - 2022-04-10
+
 ## [1.0.1-beta.2] - 2022-04-10
 
 ## [1.0.0] - 2022-04-10
@@ -18,7 +20,9 @@ A nice description could be here.
 
 -   Made the world a bit better!
 
-[Unreleased]: https://github.com/linkdotnet/deployment-template/compare/1.0.1-beta.2...HEAD
+[Unreleased]: https://github.com/linkdotnet/deployment-template/compare/1.1.0...HEAD
+
+[1.1.0]: https://github.com/linkdotnet/deployment-template/compare/1.0.1-beta.2...1.1.0
 
 [1.0.1-beta.2]: https://github.com/linkdotnet/deployment-template/compare/1.0.0...1.0.1-beta.2
 
