@@ -6,6 +6,12 @@
     <Nullable>enable</Nullable>
     <PackageProjectUrl>https://github.com/linkdotnet/deployment-template</PackageProjectUrl>
     <RepositoryUrl>https://github.com/linkdotnet/deployment-template</RepositoryUrl>
+    <PackageId>LinkDotNet.MyLibrary</PackageId>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Title>A nice and simple library</Title>
+    <Authors>Steven Giesel</Authors>
+    <Description>Some descriptive text</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
