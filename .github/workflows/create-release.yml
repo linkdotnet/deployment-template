@@ -74,3 +74,17 @@ jobs:
     - name: Upload to nuget
       run: |
         dotnet nuget push ${GITHUB_WORKSPACE}/packages/*.nupkg -k ${{ secrets.NUGET_KEY }} -s https://api.nuget.org/v3/index.json --skip-duplicate --no-symbols
+
+    - name: Merge main to stable
+      run: |
+        git fetch
+        git checkout stable
+        git pull
+        git merge --no-ff -X theirs origin/main -m "Updating to newest release"
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.PAT }}
+        branch: stable
+        force: true
