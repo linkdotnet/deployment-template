@@ -6,13 +6,7 @@ A nice description could be here.
 
 ## [Unreleased]
 
-## [1.0.1] - 2022-04-11
-
-## [1.1.0] - 2022-04-10
-
-## [1.0.1-beta.2] - 2022-04-10
-
-## [1.0.0] - 2022-04-10
+## [1.0.0] - 2022-04-11
 
 ### Added
 
@@ -22,12 +16,6 @@ A nice description could be here.
 
 -   Made the world a bit better!
 
-[Unreleased]: https://github.com/linkdotnet/deployment-template/compare/1.0.1...HEAD
-
-[1.0.1]: https://github.com/linkdotnet/deployment-template/compare/1.1.0...1.0.1
-
-[1.1.0]: https://github.com/linkdotnet/deployment-template/compare/1.0.1-beta.2...1.1.0
-
-[1.0.1-beta.2]: https://github.com/linkdotnet/deployment-template/compare/1.0.0...1.0.1-beta.2
+[Unreleased]: https://github.com/linkdotnet/deployment-template/compare/1.0.0...HEAD
 
 [1.0.0]: https://github.com/linkdotnet/deployment-template/compare/902a59583c17b4e0c437e156c038bd25ac2958f0...1.0.0
